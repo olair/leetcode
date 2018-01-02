@@ -1,4 +1,4 @@
-package cn.olair.leetcode;
+package cn.olair.leetcode.seventy.nine;
 
 import org.junit.Test;
 
