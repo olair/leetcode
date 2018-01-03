@@ -1,5 +1,8 @@
 package cn.olair.leetcode.hundred_one.twenty.zero;
 
+import org.junit.Test;
+
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -78,6 +81,31 @@ public class Triangle {
         }
 
         return num;
+    }
+
+    @Test
+    public void test() {
+        List<List<Integer>> lists = new ArrayList<>();
+        List<Integer> list1 = new ArrayList<>();
+        list1.add(2);
+        List<Integer> list2 = new ArrayList<>();
+        list2.add(3);
+        list2.add(4);
+        List<Integer> list3 = new ArrayList<>();
+        list3.add(6);
+        list3.add(5);
+        list3.add(7);
+        List<Integer> list4 = new ArrayList<>();
+        list4.add(4);
+        list4.add(1);
+        list4.add(8);
+        list4.add(3);
+        lists.add(list1);
+        lists.add(list2);
+        lists.add(list3);
+        lists.add(list4);
+
+        System.out.print(minimumTotal(lists));
     }
 
 }
